@@ -1,13 +1,4 @@
-@use "typography";
-@use "layout";
-@use "variables";
+@import 'variables';
+@import 'typography';
+@import 'layout';
 
-h1 {
-  color: #ba4d4d;
-}
-
-.presentation {
-  color: blue;
-  font-weight: bold;
-  margin-top: 50px;
-}
