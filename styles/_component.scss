@@ -2,6 +2,21 @@
   display: flex;
 
   .text-content{
+    flex: 1;
+    .title{
+      font-size: 100px;
+      line-height: 1.1;
+      font-weight: 700;
+    }
+    .paragraph{
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    .illustration{
+      flex: 1;
+      max-width: 100%;
+    }
 
   }
   .action-div{

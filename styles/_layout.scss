@@ -1,14 +1,19 @@
 body {
   background-color: $dark;
   color: $white;
+  margin: 0 30px;
 }
 
-.illustration{
-  height: auto;
-  width: 50px;
+main {
+  margin: 0 30px;
 }
 
-.header-website {
+.img{
+  height: 800px;
+  width: 800px;
+}
+
+.\.header-website{
   height: 100px;
   margin-bottom: 15px;
   color: #55198b;

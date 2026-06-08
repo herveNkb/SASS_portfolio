@@ -1,14 +1,20 @@
+@charset "UTF-8";
 body {
   background-color: #171c28;
   color: #fff;
+  margin: 0 30px;
 }
 
-.illustration {
-  height: auto;
-  width: 50px;
+main {
+  margin: 0 30px;
 }
 
-.header-website {
+.img {
+  height: 1000px;
+  width: 1000px;
+}
+
+.\.header-website {
   height: 100px;
   margin-bottom: 15px;
   color: #55198b;
@@ -20,6 +26,22 @@ body {
 
 .section-display {
   display: flex;
+}
+.section-display .text-content {
+  flex: 1;
+}
+.section-display .text-content .title {
+  font-size: 70px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.section-display .text-content .paragrph {
+  font-size: 30px;
+  line-height: 40px;
+}
+.section-display .text-content .illustration {
+  flex: 1;
+  width: 100ù;
 }
 
 /*# sourceMappingURL=main.css.map */
