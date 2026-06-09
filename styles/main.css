@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   background-color: #171c28;
   color: #fff;
@@ -10,8 +9,8 @@ main {
 }
 
 .img {
-  height: 1000px;
-  width: 1000px;
+  height: 800px;
+  width: 800px;
 }
 
 .\.header-website {
@@ -31,17 +30,82 @@ body {
   flex: 1;
 }
 .section-display .text-content .title {
-  font-size: 70px;
+  font-size: 100px;
   line-height: 1.1;
   font-weight: 700;
 }
-.section-display .text-content .paragrph {
-  font-size: 30px;
-  line-height: 40px;
+.section-display .text-content .paragraph {
+  font-size: 50px;
+  line-height: 60px;
 }
 .section-display .text-content .illustration {
   flex: 1;
-  width: 100ù;
+  max-width: 100%;
+}
+.btn {
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  border: solid 1px;
+  transition: all ease 0.3s;
+}
+.btn:hover {
+  transform: translateY(-10px);
+}
+.btn.btn-primary {
+  background-color: #55198b;
+  border-color: rgb(32.1341463415, 9.4512195122, 52.5487804878);
+  color: #fff;
+}
+.btn.btn-primary:hover {
+  background-color: rgb(111.4329268293, 32.7743902439, 182.2256097561);
+  color: #fff;
+}
+.btn.btn-secondary {
+  background-color: #aaa5ff;
+  border-color: rgb(73.6666666667, 63, 255);
+  color: #171c28;
+}
+.btn.btn-secondary:hover {
+  background-color: rgb(218.1666666667, 216, 255);
+  color: #171c28;
+}
+.btn.btn-gray {
+  background-color: #868e96;
+  border-color: rgb(84.5575221239, 91, 97.4424778761);
+  color: #171c28;
+}
+.btn.btn-gray:hover {
+  background-color: rgb(161.3053097345, 167.5, 173.6946902655);
+  color: #171c28;
+}
+.btn.btn-lightgray {
+  background-color: #f3efef;
+  border-color: rgb(199.2857142857, 180.7142857143, 180.7142857143);
+  color: #171c28;
+}
+.btn.btn-lightgray:hover {
+  background-color: white;
+  color: #171c28;
+}
+.btn.btn-dark {
+  background-color: #171c28;
+  border-color: black;
+  color: #fff;
+}
+.btn.btn-dark:hover {
+  background-color: rgb(41.619047619, 50.6666666667, 72.380952381);
+  color: #fff;
+}
+.btn.btn-white {
+  background-color: #fff;
+  border-color: #cccccc;
+  color: #171c28;
+}
+.btn.btn-white:hover {
+  background-color: white;
+  color: #171c28;
 }
 
 /*# sourceMappingURL=main.css.map */
